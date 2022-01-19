@@ -70,7 +70,7 @@ public class Broadcast implements CommandExecutor {
                 player.performCommand("title " + player.getDisplayName() + " times 10 25 10");
                 player.performCommand("title @a title {\"text\":\"" + text + "\", \"bold\":true, \"italic\":true, \"color\":\"white\"}");
 
-
+//test
                 return true;
             } else if (args[0].equalsIgnoreCase("all")) {
                 for (int i = 1; i < args.length; i++) {
