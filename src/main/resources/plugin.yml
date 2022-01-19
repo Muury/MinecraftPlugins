@@ -1,0 +1,28 @@
+name: ServerCore
+version: '${project.version}'
+main: minecraft.plugin.Plugin
+api-version: 1.8
+commands:
+  regulamin:
+    description: ServerCore regulamin Serwera
+  ec:
+    description:  Enderchest
+
+
+  gamemode:
+    description: Zmiana trybu gry
+    aliases: gm
+
+  vip:
+    description: Informacje o randzevip
+  broadcast:
+    description: broadcast
+    aliases: bc
+  chat:
+    description: Zarzadzanie czatem
+  test:
+    description: Chat clear/on/off
+  res:
+    description: Restart serwera
+  servercore:
+    description: Pomoc
