@@ -43,6 +43,7 @@ public final class Plugin extends JavaPlugin {
         this.getCommand("test").setExecutor(new Test());
         this.getCommand("res").setExecutor(new Restart(this));
         this.getCommand("servercore").setExecutor(new ServerCore());
+        this.getCommand("boss").setExecutor(new Boss());
     }
 
     public static Plugin getInstance() {
