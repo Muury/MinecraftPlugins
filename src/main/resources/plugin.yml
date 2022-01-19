@@ -26,3 +26,5 @@ commands:
     description: Restart serwera
   servercore:
     description: Pomoc
+  boss:
+    description: Boss
